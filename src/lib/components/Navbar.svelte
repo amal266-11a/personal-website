@@ -35,8 +35,8 @@ const links = [
         <span class=" font-bold text-3xl">
             Amal 
          </span>
-         <span class=" text-xl uppercase">
-           / Web Developer  
+         <span class=" text-xl uppercase hidden sm:flex">
+           / Computer science 
          </span>
     
         </div>   
