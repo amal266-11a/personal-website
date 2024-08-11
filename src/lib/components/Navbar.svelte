@@ -3,6 +3,7 @@ import Button from "./ui/button/button.svelte";
 import { page} from "$app/stores";
 import * as Sheet from "$lib/components/ui/sheet";
     import ThemeSwitch from "./ThemeSwitch.svelte";
+    import Title from "./Title.svelte";
 const links = [
     {
         text: "ABOUT ME",
@@ -24,17 +25,15 @@ const links = [
     let isSheetOpen=false;
 </script>
 
-<div class=" bg-secondary text-secondary-foreground py-8 px-6">
+<div class=" bg-secondary dark:bg-secondary text-secondary-foreground py-8 px-6">
     <header class=" max-w-screen-lg flex justify-between items-center mx-auto">   
 
         <a href="/" class=" flex items-center gap-2 ">
-     <div class=" bg-primary w-5 h-5 me-4"/>
+     <Title title="Amal"  />
     
     <div class=" flex items-center gap-2">
     
-        <span class=" font-bold text-3xl">
-            Amal 
-         </span>
+        
          <span class=" text-xl uppercase hidden sm:flex">
            / Computer science 
          </span>

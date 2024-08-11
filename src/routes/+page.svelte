@@ -6,9 +6,9 @@ import Button from "$lib/components/ui/button/button.svelte";
 </script>
 <div class=" flex justify-end pb-[35rem] lg:pb-0">
 <div class=" bg-secondary text-secondary-foreground   relative w-full lg:w-[60vw] min-h-[40vh] lg:min-h-[calc(100vh-1.7rem)] flex justify-center items-center pb-32">
-    <div class=" bg-[#f4ece6] dark:bg-[#303030]  shadow-2xl h-[30rem] min-w-[22rem] absolute  lg:start-10  lg:-translate-x-full   flex flex-col items-center   justify-between pt-8 gap-2 self-bottom lg:self-start translate-y-[105%] lg:translate-y-[10%] max-w-[85vw]">
+    <div class=" bg-[#f4ece6] dark:bg-[#2d2b49]  shadow-2xl h-[30rem] min-w-[22rem] absolute  lg:start-10  lg:-translate-x-full   flex flex-col items-center   justify-between pt-8 gap-2 self-bottom lg:self-start translate-y-[105%] lg:translate-y-[10%] max-w-[85vw]">
      
-   <img src="/favicon.jpg" class="rounded-full w-64  grayscale" alt="الصوره الشخصيه"/> 
+   <img src="/favicon.jpeg" class="rounded-full w-64  grayscale" alt="الصوره الشخصيه"/> 
   <div class=" flex flex-col items-center gap-8">
     <h1 class=" font-bold text-2xl dark:text-violet-400">
       Amal Al-shreif👩‍💻
