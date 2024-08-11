@@ -25,9 +25,9 @@ const links = [
 </script>
 
 <div class=" bg-secondary text-secondary-foreground py-8 px-6">
-    <nav class=" max-w-screen-lg flex justify-between items-center mx-auto">
+    <header class=" max-w-screen-lg flex justify-between items-center mx-auto">   
 
-        <div class=" flex items-center gap-2 ">
+        <a href="/" class=" flex items-center gap-2 ">
      <div class=" bg-primary w-5 h-5 me-4"/>
     
     <div class=" flex items-center gap-2">
@@ -40,7 +40,7 @@ const links = [
          </span>
     
         </div>   
- </div>
+    </a>
    <div class=" flex">
     <ThemeSwitch />
     <!-- large scrren -->
@@ -71,5 +71,5 @@ const links = [
        
           
    </div>
-          </nav>
+    </header>
                 </div>
