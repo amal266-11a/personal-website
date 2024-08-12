@@ -3,9 +3,9 @@
     import Container from "$lib/components/Container.svelte";
 import Title from "$lib/components/Title.svelte";
 import Button from "$lib/components/ui/button/button.svelte";
-import ResumeCard from "$lib/components/ResumeCard.svelte";
+import ResumeCard from "$lib/components/ProjectCard.svelte";
 </script>
-<Container className="" >
+<Container class="" >
     <Title title="Resume" />
     <div class="pt-16 flex flex-col gap-8">
 <div class=" flex justify-between items-center">
