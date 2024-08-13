@@ -29,7 +29,7 @@ const links = [
     <header class=" max-w-screen-lg flex justify-between items-center mx-auto">   
 
         <a href="/" class=" flex items-center gap-2 ">
-     <Title title="Amal"  />
+     <Title id="my-name" title="Amal"  />
     
     <div class=" flex items-center gap-2">
     

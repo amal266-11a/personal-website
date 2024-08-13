@@ -3,6 +3,7 @@
 
     export let title:string;
      let className:string="";
+     export let id="page-title";
 
 
 export {className as class};
@@ -16,5 +17,5 @@ export {className as class};
     <div class=" bg-primary w-5 h-5 me-4">
 
     </div>
-    <span>{title}</span>
+    <span id={id}>{title}</span>
 </h1>

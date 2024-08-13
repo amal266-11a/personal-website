@@ -2,19 +2,20 @@
 
     import SocialMedia from "$lib/components/SocialMedia.svelte";
 import Button from "$lib/components/ui/button/button.svelte";
-
+import { reveal } from 'svelte-reveal';
 </script>
 <div class=" flex justify-end pb-[35rem] lg:pb-0">
 <div class=" bg-secondary text-secondary-foreground   relative w-full lg:w-[60vw] min-h-[40vh] lg:min-h-[calc(100vh-1.7rem)] flex justify-center items-center pb-32">
-    <div class=" bg-[#f4ece6] dark:bg-[#2d2b49]  shadow-2xl h-[30rem] min-w-[22rem] absolute  lg:start-10  lg:-translate-x-full   flex flex-col items-center   justify-between pt-8 gap-2 self-bottom lg:self-start translate-y-[105%] lg:translate-y-[10%] max-w-[85vw]">
+    <!-- card -->
+  <div  class=" bg-[#f4ece6] dark:bg-[#2d2b49]  shadow-2xl h-[30rem] min-w-[22rem] absolute  lg:start-10  lg:-translate-x-full   flex flex-col items-center   justify-between pt-8 gap-2 self-bottom lg:self-start translate-y-[105%] lg:translate-y-[10%] max-w-[85vw]">
      
-   <img src="/favicon.jpeg" class="rounded-full w-64  grayscale" alt="الصوره الشخصيه"/> 
+   <img use:reveal={{preset:'fade'}} src="/favicon.jpeg" class="rounded-full w-64  grayscale sr__hide" alt="الصوره الشخصيه"/> 
   <div class=" flex flex-col items-center gap-8">
-    <h1 class=" font-bold text-2xl dark:text-violet-400">
+    <h1 use:reveal={{preset:'fade', delay:100}} class=" font-bold text-2xl dark:text-violet-400 sr__hide">
       Amal Al-shreif👩‍💻
     </h1> 
     <hr class=" w-16 border-2 border-primary" />
-    <h2 class=" text-2xl dark:text-violet-400">
+    <h2 use:reveal={{preset:'fade',delay:200}} class=" text-2xl dark:text-violet-400  sr__hide">
     Web Developer </h2> 
   </div>
   
@@ -25,7 +26,7 @@ import Button from "$lib/components/ui/button/button.svelte";
    
 </div>
 <div class=" mx-10 max-w-[30rem] flex flex-col gap-8 ">
-  <h1 class=" text-8xl font-bold">
+  <h1 id="page-title" class=" text-8xl font-bold">
    Hello 
   </h1> 
   <h4 class=" text-4xl">
